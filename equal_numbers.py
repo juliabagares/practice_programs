@@ -5,3 +5,6 @@ if first_number > second_number:
     print("the bigger number is ", first_number)
 elif first_number < second_number:
     print("the bigger number is ", second_number)
+
+else:
+    print("both numbers are equal")
