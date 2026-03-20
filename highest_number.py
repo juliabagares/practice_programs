@@ -8,3 +8,5 @@ while True:
     except ValueError:
         break
 
+highest_number = max(numbers)
+print("the highest number is ", highest_number)
