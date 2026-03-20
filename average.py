@@ -7,3 +7,7 @@ while True:
 
     except ValueError:
         break
+
+if numbers:
+    average = sum(numbers)/len(numbers)
+    print("The average is", average)
