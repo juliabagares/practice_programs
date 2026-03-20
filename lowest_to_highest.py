@@ -6,3 +6,6 @@ while True:
         numbers.append(number)
     except ValueError:
         break
+
+numbers.sort()
+print("the lowest to highest numbers: ", numbers)
