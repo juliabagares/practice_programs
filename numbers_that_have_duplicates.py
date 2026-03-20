@@ -1,0 +1,2 @@
+numbers=[int(input(f"number {i+1}:")) for i in range (10)]
+
