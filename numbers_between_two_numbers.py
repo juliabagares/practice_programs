@@ -1,2 +1,4 @@
 first_number = int(input("First number: "))
 second_number = int(input("Second number: "))
+
+print(f"the numbers between {first_number} and {second_number} are:")
