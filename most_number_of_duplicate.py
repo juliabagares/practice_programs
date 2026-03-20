@@ -7,3 +7,5 @@ while True:
 
     except ValueError:
         break
+
+duplicates = [n for n in numbers if numbers.count(n) > 1]
