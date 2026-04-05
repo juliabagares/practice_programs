@@ -17,4 +17,5 @@ for char in text:
             title_text += chr(ord(char) + 32)
         else:
             title_text += char
-    
+
+print(title_text)
