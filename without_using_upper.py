@@ -6,3 +6,5 @@ for char in text:
         upper_text += chr(ord(char) - 32)
     else:
         upper_text += char
+
+print(upper_text)
