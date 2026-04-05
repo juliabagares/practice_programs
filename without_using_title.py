@@ -9,4 +9,7 @@ for char in text:
     elif start_of_word:
         if 'a' <= char <= 'z':
             title_text += chr(ord(char) - 32)
-    
+        else:
+            title_text += char
+        start_of_word = False
+            
