@@ -6,4 +6,7 @@ for index in range(len(text)):
         capitalize += chr(ord(text[index]) - 32)
     elif 'A' <= text[index] <= 'Z':
         capitalize += chr(ord(text[index]) + 32)
-    
+    else:
+        capitalize += text[index]
+
+print(capitalize)
