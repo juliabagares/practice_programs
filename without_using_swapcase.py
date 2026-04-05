@@ -6,3 +6,6 @@ for char in text:
         swapped += chr(ord(char) - 32)
     elif 'A' <= char <= 'Z':
         swapped += chr(ord(char) + 32)
+    else:
+        swapped += char
+print(swapped)
