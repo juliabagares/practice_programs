@@ -4,3 +4,4 @@ length = int(input("Enter length: "))
 while len(text) < length:
     text = " " + text
 
+print(text)
