@@ -3,4 +3,3 @@ class Fan:
     MEDIUM = 2
     FAST = 3
 
-    
